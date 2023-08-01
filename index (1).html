@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel Reservation Forms:</h1>
+    
+    <form method="post">
+        <label>Full Name*: </label>
+        <br>
+        <input type="text" name="nome_completo" placeholder="Seu nome completo" required/>
+        <br>
+        <label>Email Address*: </label>
+        <br>
+        <input type="email" name="email" placeholder="Endereço de email" required/>
+        <br>
+        <label>Select Tour package*: </label>
+        <br>
+        <select name="package" required>
+            <option value="Goa">Goa</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Assam">Assam</option>
+        </select>
+        <br>
+        <label>Arrival Date:* </label>
+        <br>
+        <input type="date" name="arrival_date" placeholder="m/d/y" required/>
+        <br>
+        <label>Number of Persons:* </label>
+        <br>
+        <input type="number" name="Persons" placeholder="Number of persons" min="1" max="9" required/>
+        <br>
+        <label>What would you want to avail? *</label>
+        <br>
+        <label>Boarding</label>
+        <input type="checkbox" name="Avaiable" value="Boarding" />
+        <br>
+        <label>Fooding</label>
+        <input type="checkbox" name="Avaiable" value="Fooding" />
+        <br>
+        <label>Sight Seeing</label>
+        <input type="checkbox" name="Avaiable" value="Sight Seeing" />
+        <br>
+        <label>Discout Coupon Code:</label>
+        <br>
+        <input type="text" name="code"  pattern="[a-zA-Z]{6}" maxlength="6"  placeholder="Coupon Code"/>
+        <br>
+        <label>Terms and Conditions:* </label>
+        <br>
+        <input type="radio" name="Terms_and_conditions" value="I Agree" required/>
+        <input type="radio" name="Terms_and_conditions" value=" I Disagree" required/>
+        <br>
+        <input type="submit" name="Complet Reservation" value="Submit" required/>
+
+
+    </form>
+</body>
+</html>
