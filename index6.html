@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <center><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Escola Virtual</title>
+  <h1>Escola Virtual</h1>
+  <h2>Formulário de pré-matrícula</h2>
+  <script src='script.js' defer></script>
+  </center>
+</head>
+
+<center><body>
+  <div class="dados">
+    <p>Dados pessoais</p>
+    <form id="contato" action="" method="post">
+      <label>Nome do aluno: <input type="text" id="nome" name="Name" required/></label><br>
+
+      <label>Nascimento: <input type="date" id="Nascimento" name="Nascimento" required /></label><br>
+
+      <label>Nome da mãe: <input type="text" id="nomemae" name="Mae" required /></label><br>
+
+      <label>Nome do pai: <input type="text" id="nomepai" name="Pai" required /></label><br>
+
+      <label>DDD: (<input type="text" style="width:15px;" id="ddd" placeholder="ddd">)</label>
+
+      <label>Telefone: <input type="tel" id="tel" name="Name" required></label><br>
+
+      <label>Email: <input type="email" id="email" name="email" /></label><br>
+      
+    <p>Informações da Matrícula</p>
+    <h4>Tipo de curso:</h4>
+    <select>
+      <option>Ensino Técnico Integrado</option>
+      <option>Subsequente</option>
+      <option>Superior</option>
+    </select>
+    <h4>Turno:</h4>
+
+      <input type="radio" name="turno" value="mat" required> Matutino
+      <input type="radio" name="turno" value="vesp" required> Vespertino
+
+    <h4>minicursos:</h4>
+
+      <input type="checkbox" name="opc" value="op1"></input> informática<br>
+      <input type="checkbox" name="opc" value="op2"></input> química<br>
+      <input type="checkbox" name="opc" value="op3"></input> eletrônica<br>
+      <input type="checkbox" name="opc" value="op4"></input> mecânica<br>
+      <input type="checkbox" name="opc" value="op5"></input> Engenharia<br>
+      <input type="checkbox" name="opc" value="op6"></input> matemática<br>
+      <button onclick="verificar()">Enviar</button>
+      <input type="reset" value='Resetar' name='Resetar' placeholder="Resetar">
+    </form>
+  
+</body>
+</center>
+
+</html>
