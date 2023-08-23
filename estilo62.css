@@ -1,0 +1,58 @@
+body {
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.img-google {
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin: -30px;
+    padding: 50px;
+}
+
+.pesquisa-container {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 650px;
+}
+
+.pesquisa-box {
+    position: relative;
+    right: 15px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.pesquisa-button {
+    position: relative;
+    bottom: 32px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 415px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+footer ul {
+    list-style: none;
+  }
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+footer a {
+    text-decoration: none;
+    color: #555;
+  }
