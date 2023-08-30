@@ -6,37 +6,46 @@
     grid-row-gap: 5px;
     height: 400px;
     
-  }
+}
+.oiu{
+    border: 7px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 212);
+    opacity: 0.8;
+
+}
 #caixa1{
-    background-color: aqua;
-    grid-column: 1/ span 3;
+    
+    grid-column: 1/ span 2;
     grid-row: 1/ span 1;
-    right: -100px;
+    
+    
     
 
 }
+
 #caixa2{
-    background-color: aquamarine;
-    right: 50%;
     grid-column: 2/ span 2;
     grid-row: 1/ span 4;
+
 }
 #caixa3{
-    background-color: rgb(189, 34, 34);
     grid-column-start: 1 ;
     grid-row:2 /span 5 ;
+    
 }
 #caixa4{
-    background-color: bisque;
+    
     grid-column-start: 3;
+    border-width: 5px;
+    
 }
 #caixa5{
-    background-color: blue;
     grid-column-start: 2;
+    border-width: 5px;
 }
 #caixa6{
-    background-color: blueviolet;
+    
     grid-column-start: 3;
+    border-width: 5px;
+    
 }
-  
-  
