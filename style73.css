@@ -7,17 +7,55 @@ a{
     padding-left: 5px;
     margin-left: 8px;
 }
-.grid-experience{
+.grid-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 10;
+    grid-template-rows: 30% 10% 12.5% 12.5% 10% 12,5% 12,5%;
+    gap: 30px;
+}
+#ex{
+    grid-row-start: 2;
+    grid-column-start: 3;
     text-align: center;
 }
-#experience{
-    grid-column:1/ span 4 ;
+.header{
+    grid-column: 1/ span 5;
 }
-#egi{
-    grid-column: 1/ 1;
-    grid-row: 3/ 3;
+.carg {
+    grid-row-start: 3;
+    grid-column-start: 1;
 
+}
+.der {
+    grid-column: 3/ span 2;
+    grid-row-start: 3;
+}
+ #c2{
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+#d2{
+    grid-row-start: 4;
+    grid-column: 3/ span 2;
+}
+#ed{
+    grid-row-start: 5;
+    grid-column-start: 3;
+    text-align: center;
+}
+#c3{
+    grid-row-start: 6;
+    grid-column: 1/ span 2;
+}
+#d3{
+    grid-row-start: 6;
+    grid-column: 3/ span 2;
+}
+#c4{
+    grid-row-start: 7;
+    grid-column-start: 1;
+}
+#d4{
+    grid-row-start: 7;
+    grid-column: 3/ span 2;
 }
