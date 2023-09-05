@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-Serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(95, 3, 131) 50%, rgb(199, 148, 9) 50% );
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.esquerda {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 50%;
+    text-align: center;
+    background-color: #d4850e;
+    width: 80%;
+    color: #000000;
+    padding: 20px;
+    border-style: groove ;
+    border-radius: 30%;
+    border-color: blue;
+}
+.direita {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    
+    text-align: center;
+    background-color: #ebeef1;
+    width: 80%;
+    height: 50%;
+    color: #000000;
+    padding: 20px;
+    border-style: groove ;
+    border-radius: 30%;
+    border-color: #d4850e;
+}
+.esquerda p{
+    color: #570d0d;
+}
+.direita p{
+    color:#65149b
+}
+h1 a {
+    margin: 0 20px;
+}
+.img-container {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+.img-container img {
+    border: 3px inset #696969;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    width: 20rem;
+    height: 20rem;
+}
+.content {
+    text-align: center;
+    max-width: 800px;
+    padding: 0 10px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.content p {
+    color: #F5DEB3;
+}
+footer {
+    background-color: #817c81;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 11%;
+    width: 100%;
+}
+.social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media a {
+    margin: 0 20px;
+    text-decoration: none;
+    position: relative;
+    left: 1rem;
+}
+.social_media img {
+    width: 35px;
+    height: 35px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 100%;
+    
+}
+.img-media{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+#img1{
+    grid-column-start: 1;
+}
+#img1{
+    grid-column-start: 2;
+}
